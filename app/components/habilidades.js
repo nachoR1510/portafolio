@@ -34,7 +34,7 @@ const habilidades = () => {
                 key={index}
               >
                 <Image
-                  src={`/images/${skill.name}.webp`}
+                  src={`/Images/${skill.name}.webp`}
                   alt={`icono ${skill.name}`}
                   height={100}
                   width={100}
