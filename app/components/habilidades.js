@@ -18,19 +18,19 @@ const habilidades = () => {
 
   return (
     <section
-      className=" w-full h-full z-30 relative md:snap-start"
+      className=" md:w-full md:h-full z-30 relative md:snap-start md:pt-0 "
       id="proyectos"
     >
-      <div className="w-full h-full grid grid-cols-12 grid-rows-12">
-        <div className="col-start-2 col-span-6 row-start-2 row-span-5">
-          <h5 className="font-bold md:text-6xl text-4xl select-none p-5">
+      <div className="md:w-full md:h-full md:grid md:grid-cols-12 md:grid-rows-12 flex flex-col">
+        <div className="md:col-start-2 col-span-6 md:row-start-2 row-span-5">
+          <h5 className="font-bold md:text-6xl text-4xl select-none p-5 mt-150 md:mt-0">
             Habilidades
           </h5>
 
-          <div className="flex flex-wrap gap-5">
+          <div className="flex flex-wrap gap-5 justify-center">
             {skills.map((skill, index) => (
               <Tilt
-                className="bg-radial from-zinc-800 from-40% to-zinc-900 p-5 rounded-lg flex flex-col items-center justify-center w-64 h-45"
+                className="bg-radial from-zinc-800 from-40% to-zinc-900 p-5 rounded-lg flex flex-col items-center justify-center md:w-64 md:h-45 w-32"
                 key={index}
               >
                 <Image
@@ -49,7 +49,7 @@ const habilidades = () => {
         </div>
 
         <Tilt
-          className="md:row-start-2 row-start-9 row-span-9 md:col-start-8 col-span-3 flex flex-col bg-radial from-gray-300 from-40% to-gray-400 rounded-sm p-4"
+          className="md:row-start-2 row-start-9 row-span-9 md:col-start-8 md:col-span-3 flex flex-col bg-radial from-gray-300 from-40% to-gray-400 rounded-sm p-4 md:mt-0 mt-5"
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
         >

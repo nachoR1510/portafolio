@@ -9,7 +9,7 @@ const contacto = () => {
       className="w-full h-full z-30 relative md:snap-start"
       id="sobre mi"
     >
-      <div className="w-full h-full grid grid-cols-12 grid-rows-12">
+      <div className="md:w-full md:h-full md:grid md:grid-cols-12 md:grid-rows-12 flex  flex-col sm:gap-5 ">
         <div className="md:col-start-2 row-start-2 row-span-9 md:col-span-4 col-span-10 flex flex-col gap-4">
           <Tilt
             className="bg-radial from-gray-300 from-40% to-gray-400 rounded-lg flex flex-col gap-7 pb-10"
@@ -90,7 +90,7 @@ const contacto = () => {
         </div>
 
         <Tilt
-          className="md:col-start-6 md:row-start-2 row-start-11 row-span-9 md:col-span-6 col-span-11 flex flex-col pl-5"
+          className="md:col-start-6 md:row-start-2  row-span-9 md:col-span-6 md:col-span-11 flex flex-col md:pl-5 md:pt-0 pt-5"
           tiltMaxAngleX={5}
           tiltMaxAngleY={5}
         >
@@ -101,7 +101,7 @@ const contacto = () => {
             width={1000}
             className="md:w-200 md:h-130 rounded-t-lg object-cover select-none"
           />
-          <h5 className="md:text-6xl text-5xl text-yellow-400 font-bold absolute md:top-115 top-70 select-none">
+          <h5 className="md:text-6xl text-5xl text-yellow-400 font-bold absolute md:top-115 top-85 select-none">
             Sobre mi
           </h5>
           <div className="bg-radial from-gray-300 from-40% to-gray-400 md:w-200 rounded-b-lg pb-4">
