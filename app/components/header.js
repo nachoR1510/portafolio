@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const sections = ["inicio", "contacto", "habilidades"];
+const sections = ["inicio", "sobre mi", "proyectos"];
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState("inicio");
@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header className="w-full h-16 z-50 fixed grid grid-cols-3 grid-rows-1 md:bg-zinc-900/0 bg-zinc-900/50">
-      <section className="col-start-2 flex gap-10 justify-center items-center md:text-5xl text-xl">
+      <section className="col-start-2 flex gap-10 justify-center items-center md:text-4xl text-xl">
         {sections.map((id) => (
           <a
             key={id}

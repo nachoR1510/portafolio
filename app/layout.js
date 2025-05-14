@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="md:scroll-smooth">
-      <body className={`font-meri text-white overflow-x-hidden`}>
+      <body className={`font-mont text-white overflow-x-hidden`}>
         <Header />
         {children}
       </body>

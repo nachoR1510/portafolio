@@ -5,7 +5,7 @@ import Habilidades from "./components/habilidades";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen relative overflow-y-scroll md:snap-y md:snap-mandatory">
+    <main className="h-screen w-screen relative overflow-y-scroll md:snap-y md:snap-proximity">
       <video
         src="/video/background.mp4"
         muted
