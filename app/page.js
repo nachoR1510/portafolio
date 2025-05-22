@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Inicio from "./components/inicio";
-import Contacto from "./components/contacto";
-import Habilidades from "./components/habilidades";
+import SobreMi from "./components/sobreMi";
+import Skills from "./components/skills";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen relative overflow-y-scroll md:snap-y md:snap-proximity overflow-x-hidden">
+    <main className="h-screen w-screen max-w-full relative overflow-x-hidden md:overflow-x-visible  ">
       <video
         src="/video/background.mp4"
         muted
@@ -18,8 +17,8 @@ export default function Home() {
       </video>
 
       <Inicio />
-      <Contacto />
-      <Habilidades />
+      <SobreMi />
+      <Skills />
     </main>
   );
 }
