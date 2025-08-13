@@ -16,7 +16,7 @@ export const metadata = {
   title: "Ignacio Roca",
   description: "Mi portafolio",
   icons: {
-    icon: "/images/favicon.png",
+    icon: "/Images/favicon.png",
   },
 };
 
