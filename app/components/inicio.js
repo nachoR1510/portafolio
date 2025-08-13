@@ -36,7 +36,7 @@ const inicio = () => {
           className="w-30 h-70 absolute top-[33%] lg:left-[63%] hidden md:inline"
         />
 
-        <div className="col-start-1 md:col-start-2 row-start-2 col-span-3 md:col-span-1 flex flex-col place-content-center text-center bg-[url(/images/fondo-main.png)] bg-cover bg-no-repeat outline outline-black/25">
+        <div className="col-start-1 md:col-start-2 row-start-2 col-span-3 md:col-span-1 flex flex-col place-content-center text-center bg-[url(/Images/fondo-main.png)] bg-cover bg-no-repeat outline outline-black/25">
           <p className="md:text-5xl text-3xl text-black z-2 leading-tight">
             Hola, soy
           </p>

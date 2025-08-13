@@ -20,17 +20,17 @@ const contacto = () => {
     <div className="w-screen min-h-screen bg-purple-400" id="sobre mi">
       <section className="w-screen h-screen z-30 relative flex flex-row items-center content-center self-center justify-center gap-1 bg-purple-400 hidden lg:flex">
         <img
-          src="images/forma5.png"
+          src="Images/forma5.png"
           alt="forma 5"
           className="w-40 h-40 absolute bottom-0 left-[5%]"
         />
         <img
-          src="images/forma6.png"
+          src="Images/forma6.png"
           alt="forma 6"
           className="w-90 h-40 absolute bottom-0 right-[10%]"
         />
         <img
-          src="images/forma7.png"
+          src="Images/forma7.png"
           alt="forma 7"
           className="w-90 h-40 absolute top-[10%] right-[-1%] z-10"
         />
