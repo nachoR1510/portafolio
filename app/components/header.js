@@ -2,29 +2,27 @@
 
 const Header = () => {
   return (
-    <header className="w-full max-w-full h-12 z-50 fixed grid grid-cols-3 grid-rows-1 mt-5">
-      <section className="md:col-start-2  col-span-3  md:col-span-1 flex  gap-5 md:gap-10 justify-center items-center md:text-3xl text-lg bg-radial from-neutral-50 from-40% to-neutral-300 rounded-full">
-        <a
-          href="#inicio"
-          className="text-black md:text-2xl font-bold hover:text-lime-400"
-        >
-          Inicio
-        </a>
+    <header className="w-screen h-18 z-50 fixed grid grid-cols-3 grid-rows-1 md:text-3xl text-lg text-black bg-stone-200 outline outline-black/25">
+      <a
+        href="#inicio"
+        className="h-full w-full hover:bg-stone-400 flex justify-center items-center transition-all"
+      >
+        <p>Inicio</p>
+      </a>
 
-        <a
-          href="#sobre mi"
-          className="text-black md:text-2xl font-bold hover:text-lime-400"
-        >
-          Sobre mi
-        </a>
+      <a
+        href="#sobre mi"
+        className="h-full w-full hover:bg-stone-400 flex justify-center items-center transition-all"
+      >
+        <p>Sobre mi</p>
+      </a>
 
-        <a
-          href="#skills"
-          className="text-black md:text-2xl font-bold hover:text-lime-400"
-        >
-          Skills
-        </a>
-      </section>
+      <a
+        href="#skills"
+        className="h-full w-full hover:bg-stone-400 flex justify-center items-center transition-all"
+      >
+        <p>Skills</p>
+      </a>
     </header>
   );
 };

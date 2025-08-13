@@ -15,12 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Ignacio Roca",
   description: "Mi portafolio",
+  icons: {
+    icon: "/images/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`font-mont text-white overflow-x-hidden `}>
+      <body className={`font-mont text-white`}>
         <Header />
         {children}
       </body>

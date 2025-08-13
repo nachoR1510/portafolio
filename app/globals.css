@@ -2,6 +2,10 @@
 @import "tailwindcss";
 @import 'animate.css';
 
+*{
+  overflow-x: hidden;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -29,33 +33,6 @@
 
 
 
-
-/* Scrollbar estilizado para contenedores con clase .custom-scrollbar */
-.custom-scrollbar {
-  scrollbar-width: thin;                /* Firefox: barra delgada */
-  scrollbar-color: oklch(84.1% 0.238 128.85) #e5e7eb00;    /* Firefox: color thumb y track */
-}
-
-/* WebKit (Chrome, Edge, Safari) */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 12px;                         /* ancho de la barra */
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: #e5e7eb;                 /* color del track */
-  border-radius: 1rem;                 /* borde redondeado */
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #60a5fa;           /* color del pulgar */
-  border-radius: 1rem;                 /* borde redondeado */
-  border: 2px solid transparent;      /* espacio para redondear */
-  background-clip: content-box;
-}
-
-.custom-scrollbar::-webkit-scrollbar-button {
-  display: none;                      /* ocultar flechas */
-}
 
 
 
