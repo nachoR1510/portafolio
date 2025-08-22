@@ -4,10 +4,10 @@ import Skills from "./components/skills";
 
 export default function Home() {
   return (
-    <main className="h-fit w-screen relative bg-stone-200">
+    <main className="h-fit w-screen relative bg-neutral-900 ">
       <Inicio />
-      <SobreMi />
       <Skills />
+      <SobreMi />
     </main>
   );
 }
