@@ -47,7 +47,7 @@ const skills = () => {
                   target="_blank"
                 >
                   <Image
-                    src={`/Images/proyectoGameKey.webp`}
+                    src={`/Images/proyectoGamekey.webp`}
                     alt="proyecto eccomerce claves"
                     height={300}
                     width={500}
