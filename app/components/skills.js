@@ -13,6 +13,7 @@ const skills = () => {
     { name: "Tailwind" },
     { name: "Git" },
     { name: "nodeJs" },
+    { name: "mongoDB" },
   ];
 
   return (
